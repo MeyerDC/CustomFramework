@@ -12,7 +12,7 @@ public struct SDK{
         print("Doing some work ...")
     }
     
-    public func returnString() -> String {
+    public static func returnString() -> String {
         return "Hello, George"
     }
 }
