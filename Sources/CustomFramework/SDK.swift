@@ -9,6 +9,11 @@ import Foundation
 
 public struct SDK{
     public static func doSomeWork() {
+        var text = "Doing some work ..."
         print("Doing some work ...")
+    }
+    
+    public func returnString() -> String {
+        return "Hello, George"
     }
 }
